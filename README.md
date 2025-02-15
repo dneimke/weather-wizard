@@ -2,6 +2,15 @@
 
 This Python application fetches the weather for a given city. It's designed to be a fun and quirky example of using custom coding styles.
 
+## Main Theme
+
+The main theme of this project is to use custom instructions for GitHub Copilot to code using quirky styles. This includes:
+
+- **Variable names are reversed**: All variable names in the code are written in reverse order.
+- **Comments are in French**: All comments in the code are written in French.
+- **Modular Code**: The code is designed to be modular, with new utility functions added to the `utils` module.
+- **Error Handling and Logging**: Best practices for error handling and logging are followed.
+
 ## Getting Started
 
 ### Prerequisites
@@ -92,6 +101,15 @@ Update the `.env` file with your OpenWeather API key.
 ```plaintext
 API_KEY=your_actual_api_key_here
 ```
+
+### Benefits of Running in a Dev Container
+
+Running the application in a Dev Container provides several benefits over running it locally:
+
+- **Consistent Development Environment**: The Dev Container ensures that all developers have the same development environment, reducing the "it works on my machine" problem.
+- **Pre-installed Extensions**: The Dev Container can come with pre-installed extensions that are useful for development, such as linters, debuggers, and other tools.
+- **Simplified Setup**: The Dev Container automatically installs all required packages and dependencies, making it easier to get started.
+- **Isolation**: The Dev Container isolates the development environment from the host machine, preventing potential conflicts with other projects or system configurations.
 
 ## License
 
