@@ -3,23 +3,21 @@
 
 ## User Journey
 
-1. **Initialization**: The application starts by initializing the necessary modules and configurations.
-2. **User Input**: The user provides input through the user interface, which is handled by the `inputHandler` module.
-3. **Data Processing**: The input data is processed by various utility functions located in the `utils` module.
-4. **API Calls**: The processed data is used to make API calls to fetch weather information.
-5. **Response Handling**: The API responses are handled and parsed by the `responseHandler` module.
-6. **Display Results**: The final weather information is displayed to the user through the user interface.
-
-## Visual Overview
-
 ```mermaid
-graph TD;
+graph LR;
     A[Initialization] --> B[User Input]
     B --> C[Data Processing]
     C --> D[API Calls]
     D --> E[Response Handling]
     E --> F[Display Results]
 ```
+
+1. **Initialization**: The application starts by initializing the necessary modules and configurations.
+2. **User Input**: The user provides input through the user interface, which is handled by the `inputHandler` module.
+3. **Data Processing**: The input data is processed by various utility functions located in the `utils` module.
+4. **API Calls**: The processed data is used to make API calls to fetch weather information.
+5. **Response Handling**: The API responses are handled and parsed by the `responseHandler` module.
+6. **Display Results**: The final weather information is displayed to the user through the user interface.
 
 ## Modules
 
