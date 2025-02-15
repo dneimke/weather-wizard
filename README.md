@@ -89,6 +89,8 @@ Update the `.env` file with your OpenWeather API key.
 API_KEY=your_actual_api_key_here
 ```
 
+## Benefits/Goals
+
 ### Benefits of Running in a Dev Container
 
 Running the application in a Dev Container provides several benefits over running it locally:
@@ -97,6 +99,25 @@ Running the application in a Dev Container provides several benefits over runnin
 - **Pre-installed Extensions**: The Dev Container can come with pre-installed extensions that are useful for development, such as linters, debuggers, and other tools.
 - **Simplified Setup**: The Dev Container automatically installs all required packages and dependencies, making it easier to get started.
 - **Isolation**: The Dev Container isolates the development environment from the host machine, preventing potential conflicts with other projects or system configurations.
+
+### Benefits of Using Custom Instructions
+
+Using custom instructions in this project provides several benefits:
+
+#### Developer Onboarding
+
+Custom instructions make it easier for new developers to understand the coding standards and practices used in the project. This helps in reducing the learning curve and allows new team members to contribute more quickly.
+
+#### Standardization
+
+Custom instructions ensure that all developers follow the same coding standards, leading to increased productivity and consistency in the codebase. This standardization helps in maintaining the quality of the code and makes it easier to review and understand.
+
+#### Scenarios
+
+Custom instructions can be tailored to specific scenarios, such as deployment patterns for Azure resources or Flutter patterns. This ensures that the code follows best practices for these scenarios, making it more robust and reliable.
+
+- **Deployment Patterns for Azure Resources**: Custom instructions can guide developers on how to structure and deploy resources on Azure, ensuring that the deployment process is smooth and follows best practices.
+- **Flutter Patterns**: Custom instructions can provide guidelines on how to structure Flutter applications, ensuring that the code is modular, maintainable, and follows best practices for Flutter development.
 
 ## License
 
