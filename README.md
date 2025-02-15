@@ -6,6 +6,8 @@ This Python application fetches the weather for a given city. It's designed to b
 
 The main theme of this project is to use custom instructions for GitHub Copilot to code using quirky styles. This includes:
 
+For more details, refer to the [official documentation for custom instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot).
+
 - **Variable names are reversed**: All variable names in the code are written in reverse order.
 - **Comments are in French**: All comments in the code are written in French.
 - **Modular Code**: The code is designed to be modular, with new utility functions added to the `utils` module.
