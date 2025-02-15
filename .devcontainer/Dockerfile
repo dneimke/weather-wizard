@@ -9,6 +9,9 @@ USER root
 # Install git
 RUN apt-get update && apt-get install -y git
 
+# Update pip to the latest version
+RUN python -m pip install --upgrade pip
+
 # Switch back to the vscode user
 USER vscode
 

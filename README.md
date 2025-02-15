@@ -48,26 +48,13 @@ The main theme of this project is to use custom instructions for GitHub Copilot 
     cd weather-wizard
     ```
 
-2. Create a virtual environment and activate it:
-
-    ```bash
-    # Bash
-    python -m venv venv
-    source venv/bin/activate
-    ```
-    ```powershell
-    # PowerShell
-    python -m venv venv
-    .\venv\Scripts\Activate.ps1
-    ```
-
-3. Install the required packages:
+2. Install the required packages:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Create a `.env` file in the root of the project (if it doesn't exist) and add your OpenWeather API key:
+3. Create a `.env` file in the root of the project (if it doesn't exist) and add your OpenWeather API key:
 
     ```plaintext
     API_KEY=your_actual_api_key_here

@@ -1,5 +1,5 @@
 {
-	"name": "Weather Wizard Dev Container",
+	"name": "Weather Wizard",
 	"dockerFile": "Dockerfile",
 	"remoteUser": "vscode",
 	"customizations": {
@@ -12,9 +12,10 @@
 				"github.copilot-chat@prerelease",
 				"bierner.markdown-mermaid"
 			],
-            "settings": {
-                "python.pythonPath": "/usr/local/bin/python"
-            }
+			"settings": {
+				"python.pythonPath": "/usr/local/bin/python",
+				"git.postCommitCommand": "push"
+			}
 		}
 	},
 	"postCreateCommand": "pip install -r requirements.txt"
