@@ -1,0 +1,21 @@
+{
+	"name": "Weather Wizard Dev Container",
+	"dockerFile": "Dockerfile",
+	"remoteUser": "vscode",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"GitHub.copilot@prerelease",
+				"github.copilot-chat@prerelease",
+				"bierner.markdown-mermaid"
+			],
+            "settings": {
+                "python.pythonPath": "/usr/local/bin/python"
+            }
+		}
+	},
+	"postCreateCommand": "pip install -r requirements.txt"
+}
