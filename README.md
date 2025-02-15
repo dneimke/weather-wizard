@@ -1,21 +1,27 @@
 # Weather Wizard
 
-This is a simple Python application that provides current weather information for a given city using the OpenWeather APIs.
+This Python application fetches the weather for a given city. It's designed to be a fun and quirky example of using custom coding styles.
 
-## Installation
+## How to Use (If running in DevContainers)
 
-1. Clone the repository:
-```
-git clone <repository_url>
-```
-2. Navigate to the project directory:
-```
-cd WeatherWizard
-```
-3. Install the dependencies:
-```
-pip install -r requirements.txt
-```
+1. Run the Python script:
+
+    ```bash
+    python weather_wizard.py
+    ```
+
+2. Enter the name of the city when prompted.
+
+## Custom Coding Rules
+
+Just for fun, this project uses some unconventional coding styles:
+
+* Variable names are reversed.
+* Comments are in French.
+
+## Challenge Accepted?
+
+Feel free to modify the code, add new features, or come up with even wilder coding rules! Have fun!
 
 ## Usage
 
