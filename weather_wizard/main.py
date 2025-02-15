@@ -4,7 +4,7 @@
 import logging
 import requests
 import json
-from utils import get_city_name, get_weather, get_weather_emoji
+from weather_wizard.utils import get_city_name, get_weather, get_weather_emoji
 
 # Configuration de base pour le logging
 logging.basicConfig(level=logging.INFO)

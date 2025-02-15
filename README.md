@@ -26,10 +26,13 @@ Feel free to modify the code, add new features, or come up with even wilder codi
 ## Usage
 
 Run the application:
-```
+```bash
 python -m weather_wizard.main
 ```
 
 ## Configuration
 
-Update the `config.py` file with your OpenWeather API key.
+Create a `.env` file in the root of the project and add your OpenWeather API key:
+
+```
+API_KEY=your_actual_api_key_here
