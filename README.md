@@ -6,12 +6,12 @@ This Python application fetches the weather for a given city. It's designed to b
 
 The main theme of this project is to use custom instructions for GitHub Copilot to code using quirky styles. This includes:
 
-For more details, refer to the [official documentation for custom instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot).
-
 - **Variable names are reversed**: All variable names in the code are written in reverse order.
 - **Comments are in French**: All comments in the code are written in French.
 - **Modular Code**: The code is designed to be modular, with new utility functions added to the `utils` module.
 - **Error Handling and Logging**: Best practices for error handling and logging are followed.
+
+For more details, refer to the [official documentation for custom instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot).
 
 ## Getting Started
 
@@ -119,7 +119,7 @@ Custom instructions ensure that all developers follow the same coding standards,
 Custom instructions can be tailored to specific scenarios, such as deployment patterns for Azure resources or Flutter patterns. This ensures that the code follows best practices for these scenarios, making it more robust and reliable.
 
 - **Deployment Patterns for Azure Resources**: Custom instructions can guide developers on how to structure and deploy resources on Azure, ensuring that the deployment process is smooth and follows best practices.
-- **Flutter Patterns**: Custom instructions can provide guidelines on how to structure Flutter applications, ensuring that the code is modular, maintainable, and follows best practices for Flutter development.
+- **Provide guidance on front-end Patterns**: Custom instructions can provide guidelines on how to structure Flutter applications, ensuring that the code is modular, maintainable, and follows best practices for Flutter development.
 
 ## License
 
