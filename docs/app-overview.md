@@ -1,7 +1,6 @@
 # Application Overview
 
-
-## User Journey
+## Application Workflow
 
 ```mermaid
 graph LR;
@@ -21,10 +20,8 @@ graph LR;
 
 ## Modules
 
-- **index.js**: Entry point of the application.
-- **inputHandler**: Handles user input.
+- **main.py**: Entry point of the application.
 - **utils**: Contains utility functions for data processing.
-- **responseHandler**: Handles and parses API responses.
 
 ## Logging and Error Handling
 
