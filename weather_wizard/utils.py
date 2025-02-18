@@ -49,6 +49,19 @@ def get_weather(eman_ytic):
 
 # Fonction pour obtenir l'emoji de la météo en fonction de la température
 def get_weather_emoji(temperature):
+    """
+    Returns an emoji representing the weather based on the given temperature.
+
+    Args:
+        temperature (float): The temperature in degrees Celsius.
+
+    Returns:
+        str: An emoji representing the weather:
+            - "❄️" for temperatures below 0°C
+            - "🌥️" for temperatures between 0°C and 15°C
+            - "☀️" for temperatures between 15°C and 25°C
+            - "🔥" for temperatures above 25°C
+    """
     if temperature < 0:
         return "❄️"
     elif temperature < 15:
